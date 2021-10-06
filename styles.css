@@ -22,6 +22,18 @@ body{
     border: 10px solid black;
     border-radius: 20%;
 }
+.game-over {
+    background-color: red;
+    opacity: 0.8;
+  }
+.pressed {
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+  }
+.dissapear {
+    box-shadow: 0 0 50px white;
+    filter: brightness(250%);
+  }
 
 .green {
     background-color: green;
